@@ -1,0 +1,16 @@
+name: disneyland_review_analyser
+
+entry_points:
+  main:
+    parameters:
+      epochs: {type: int, default: 5}
+      initial_lr: {type: float, default: 0.001}
+    command: >
+      python train.py --epochs {epochs} --initial_lr {initial_lr}
+
+
+
+
+
+
+

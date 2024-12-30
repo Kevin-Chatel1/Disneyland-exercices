@@ -1,0 +1,7 @@
+mlflow
+tensorflow==2.15.0
+tensorflow_hub
+pandas
+scikit-learn
+
+
